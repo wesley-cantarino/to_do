@@ -22,6 +22,7 @@ body {
   /* Responsive page rules at bottom of style sheet */
 
 h1 {
+  /*
   background-image: url(../images/kinglogo.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -31,7 +32,7 @@ h1 {
   line-height: 75px;
   width: 117px;
   margin: 0 auto 0 auto;
-  padding: 30px 10px 20px 10px;
+  padding: 30px 10px 20px 10px;*/
 }
 
 h2 {
@@ -76,7 +77,7 @@ li {
 
 
   height: auto;
-  min-height: 50px;
+  min-height: 60px;
 
   padding-left: 1em;
   padding-top: 10px;
@@ -191,12 +192,12 @@ input[type='text']:focus, input[type='password']:focus, textarea:focus {
   outline: none;}
 
 input[type='submit']:hover, a.add:hover, a.show:hover {
-  background-color: #000;
+  background-color: #5b5b5b;
   color: #fff;
   cursor: pointer;}
 
 button:hover{
-  background-color: #000;
+  background-color: #5b5b5b;
   color: #fff;
   cursor: pointer;
 }
@@ -342,8 +343,13 @@ a.show{
 
   float: left;
   font-size: 15px;
-  width: 100px;
+  width: 80px;
   padding: 4px 6px;
   border: 1px solid #999;
   border-radius: 8px;}
 }
+
+/*
+.sumiu{
+  text-indent: -1000%;
+}*/

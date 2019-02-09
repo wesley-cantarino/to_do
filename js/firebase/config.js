@@ -19,6 +19,9 @@ function firebase_config ()
 
   ref_main.on('child_added', function(snap){
     my_main = snap.val();
+  }, function(err) {
+    console.log("erro");
+    console.log(err);
   });
 
 
