@@ -8,6 +8,11 @@ var ref_op2;
 
 function DOWN()
 {
+  $('#refr').addClass('fa-spin');
+  setTimeout(function() {
+      $('#refr').removeClass('fa-spin');
+  }, 1000);
+
   for(let i = 0; i < my_main.length; i++)
   {
     $("#main" + i).remove();
@@ -52,9 +57,9 @@ function UP()
   if(my_op2[0].note == '')
     my_op2.splice(0, 1);*/
 
-  console.log(my_main);
-  console.log(my_op1);
-  console.log(my_op2);
+  //console.log(my_main);
+  //console.log(my_op1);
+  //console.log(my_op2);
 
   ref_main.push(my_main);
   ref_op1.push(my_op1);
@@ -120,26 +125,32 @@ $(function()
       {
         var ob = {"nota" : text, "status" : ""}
         my_main.push(ob);
+
+        ref_main.push(my_main);
       }
       else if(efeito_0 == 1)
       {
         var ob = {"nota" : text, "status" : ""}
         my_op1.push(ob);
+
+        ref_op1.push(my_op1);
       }
       else if(efeito_0 == 2)
       {
         var ob = {"nota" : text, "status" : ""}
         my_op2.push(ob);
+
+        ref_op2.push(my_op2);
       }
     }
 
     $newItemButton.show();
     $newItemForm.hide();
 
-    console.log(my_main);
-    console.log(my_op1);
-    console.log(my_op2);
-    console.log("---------------");
+    //console.log(my_main);
+    //console.log(my_op1);
+    //console.log(my_op2);
+    //console.log("---------------");
   });
 
 
@@ -255,12 +266,7 @@ $(function()
       }
     }
 
-    /*
-    var $this = $(this);
-    var complete = $this.hasClass('complete');
-    $list
-      .add('<li class=\"complete\">' + item + '</li>')
-      .hide().fadeIn(300);*/
+    ref_main.push(my_main);
   });
 
   $("#op1").on('click', 'li', function() {
@@ -311,12 +317,7 @@ $(function()
       }
     }
 
-    /*
-    var $this = $(this);
-    var complete = $this.hasClass('complete');
-    $list
-      .add('<li class=\"complete\">' + item + '</li>')
-      .hide().fadeIn(300);*/
+    ref_op1.push(my_op1);
   });
 
   $("#op2").on('click', 'li', function() {
@@ -367,12 +368,7 @@ $(function()
       }
     }
 
-    /*
-    var $this = $(this);
-    var complete = $this.hasClass('complete');
-    $list
-      .add('<li class=\"complete\">' + item + '</li>')
-      .hide().fadeIn(300);*/
+    ref_op2.push(my_op2);
   });
 
 
@@ -452,6 +448,8 @@ $(function()
       }
       updateCount();
     }
+
+    ref_main.push(my_main);
   });
 
   $("#op1").on("contextmenu", 'li', function() {
@@ -538,6 +536,8 @@ $(function()
       */
       updateCount();
     }
+
+    ref_op1.push(my_op1);
   });
 
   $("#op2").on("contextmenu", 'li', function() {
@@ -573,7 +573,7 @@ $(function()
         }
 
         //console.log(my_op2);
-        ////console.log("---------------");
+        //console.log("---------------");
       }
     }
 
@@ -623,5 +623,7 @@ $(function()
       */
       updateCount();
     }
+
+    ref_op2.push(my_op2);
   });
 });
