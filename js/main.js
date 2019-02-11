@@ -96,7 +96,7 @@ $(function()
     var items = $('li[class!=complete]').length; // Number of items in list
     $('#counter').text(items);                   // Added into counter circle
 
-    document.title = /*items + */"LISTKING"; Ajustar o titulo
+    document.title = /*items + */"LISTKING"; //Ajustar o titulo
   }
   updateCount();                                 // Call the function
 
