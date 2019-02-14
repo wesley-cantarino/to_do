@@ -17,11 +17,11 @@ To do é feito com **JavaScript**, **Jquery**, **HTML** e **CSS** com sincroniza
 
 ### Imagens do projeto :)
 
-https://github.com/wesley-cantarino/to_do/blob/master/images/img1.png
+![](https://github.com/wesley-cantarino/to_do/blob/master/images/img1.png)
 
-https://github.com/wesley-cantarino/to_do/blob/master/images/img2.png
+![](https://github.com/wesley-cantarino/to_do/blob/master/images/img2.png)
 
-https://github.com/wesley-cantarino/to_do/blob/master/images/img3.png
+![](https://github.com/wesley-cantarino/to_do/blob/master/images/img3.png)
 
 <hr>
 
