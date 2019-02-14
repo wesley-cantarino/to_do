@@ -6,8 +6,15 @@ var ref_main;
 var ref_op1;
 var ref_op2;
 
+var id_old
+
 function DOWN()
 {
+  if(document.getElementsByName("inp")[0].value != id_old)
+  {
+    firebase_config();
+  }
+
   $('#refr').addClass('fa-spin');
   setTimeout(function() {
       $('#refr').removeClass('fa-spin');

@@ -15,6 +15,14 @@ To do é feito com **JavaScript**, **Jquery**, **HTML** e **CSS** com sincroniza
 
 * A construção foi feita usando como base o livro *JavaScript and JQuery: Interactive Front-End Web Development* do autor *Jon Duckett* (Que livro awesome!) e seus exemplos. Mais especificamente os **capítulos 5, 6 e 7.**
 
+### Imagens do projeto :)
+
+https://github.com/wesley-cantarino/to_do/blob/master/images/img1.png
+
+https://github.com/wesley-cantarino/to_do/blob/master/images/img2.png
+
+https://github.com/wesley-cantarino/to_do/blob/master/images/img3.png
+
 <hr>
 
 ## Como usar modo online com seu database?
