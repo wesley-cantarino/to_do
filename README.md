@@ -8,9 +8,9 @@ To do é feito com **JavaScript**, **Jquery**, **HTML** e **CSS** com sincroniza
 
 | Plataforma                   | Estado        |
 | -------------                | ------------- |
-| Online (usando github pages) | em construção |
-| Localmente (usando Electron) | em construção |
-| Mobile (usando Ionic)        | em construção |
+| Online (usando github pages) | ![](https://img.shields.io/badge/Constru%C3%A7%C3%A3o-Conclu%C3%ADdo-brightgreen.svg)  |
+| Localmente (usando Electron) | ![](https://img.shields.io/badge/Constru%C3%A7%C3%A3o-Trabalhando-yellow.svg) |
+| Mobile (usando Ionic)        | ![](https://img.shields.io/badge/Constru%C3%A7%C3%A3o-Trabalhando-yellow.svg) |
 
 
 * A construção foi feita usando como base o livro *JavaScript and JQuery: Interactive Front-End Web Development* do autor *Jon Duckett* (Que livro awesome!) e seus exemplos. Mais especificamente os **capítulos 5, 6 e 7.**
