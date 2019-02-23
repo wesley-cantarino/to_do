@@ -15,12 +15,29 @@ body {
 }
 
 #page {
-  background-color: #403c3b;
+  /*background-color: #403c3b;*/
+
+  border-radius: 8px 8px 8px 8px;
   margin: 0 auto 0 auto;
   position: relative;
-  text-align: center;}
-  /* Responsive page rules at bottom of style sheet */
+  text-align: center;
+}
 
+.bg_white{
+  background-color: #e7e2e1;
+}
+.bg_white_page{
+  background-color: #828281;
+}
+
+.bg_black{
+  background-color: #0b0b0b;
+}
+.bg_black_page{
+  background-color: #403c3b;
+}
+
+/* Responsive page rules at bottom of style sheet */
 h1 {
   /*
   background-image: url(../images/kinglogo.png);
@@ -362,3 +379,7 @@ a.show{
 .sumiu{
   text-indent: -1000%;
 }*/
+
+.hover{
+  cursor: pointer;
+}

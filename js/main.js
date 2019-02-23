@@ -634,3 +634,28 @@ $(function()
     ref_op2.push(my_op2);
   });
 });
+
+var bg = false;
+mudar_background();
+
+function mudar_background ()
+{
+  bg = !bg;
+
+  if(bg)
+  {
+    $('body').removeClass('bg_black');
+    $('body').addClass('bg_white');
+
+    $('#page').removeClass('bg_black_page');
+    $('#page').addClass('bg_white_page');
+  }
+  else
+  {
+    $('body').removeClass('bg_white');
+    $('body').addClass('bg_black');
+
+    $('#page').removeClass('bg_white_page');
+    $('#page').addClass('bg_black_page');
+  }
+}
